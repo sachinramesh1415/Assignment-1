@@ -1,15 +1,13 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
-
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Sachin R. -- Lead Developer
 
 # THANKS
 
-    <name>
+    CGI
+    NIIT StackRoute
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    
