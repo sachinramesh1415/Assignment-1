@@ -15,8 +15,23 @@ header {
     height: 100px;
 }
 
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    float: right;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 965px) {
+    header ul {
+      display: none;
+    }
+  }
+
 header ul li {
-    display: inline;
+    margin: 40px 60px;
 }
 
 header h2 {
@@ -30,11 +45,7 @@ header h2 {
 
 header a {
     color: black;
-    padding: 14px 60px;
     text-decoration: none;
-    position: relative;
-    top : 22px;
-    left: 300px;
 }
   
 header a:hover {
@@ -43,7 +54,7 @@ header a:hover {
 }
 
 #firstcont {
-    margin-top: 190px;
+    margin-top: 140px;
 }
 /* Making image fit inside the grid */
 img {
@@ -62,8 +73,8 @@ img {
 /* Text on parallax image */
 .parallax h2 {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 92px;
-    padding: 160px 50px 0;
+    font-size: 7vw;
+    padding: 190px 50px 0;
     text-align: center;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
