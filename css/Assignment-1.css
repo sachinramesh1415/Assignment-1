@@ -7,6 +7,7 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
+/* Header */
 header {
     background-color: #ffffff;
     position: fixed;  /* Fixing the header */
@@ -52,7 +53,7 @@ header a:hover {
     color: green;
     text-decoration: underline;
 }
-
+/* 3 Column Grid */
 #firstcont {
     margin-top: 140px;
 }
@@ -82,7 +83,7 @@ img {
     margin-top: 110px;
     margin-bottom: 74px;
 }
-
+/* Second Grid */
 #lastcont {
     margin-top: 55px;
     margin-bottom: 55px;
